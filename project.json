@@ -1,0 +1,93 @@
+{
+  "name": "OSMDb Project",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.11.0-preview]",
+    "UiPath.System.Activities": "[21.4.1]",
+    "UiPath.Testing.Activities": "[1.3.3]",
+    "UiPath.UIAutomation.Activities": "[21.4.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "40ef9c0e-2a77-47fb-b524-a811f0b6a923",
+        "dataVariationFilePath": ".variations\\login_info_Sheet1.json",
+        "fileName": "Login_test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a41c6d63-395f-4f05-9671-b36808ec7fee",
+        "dataVariationFilePath": ".variations\\filter_Sheet1.json",
+        "fileName": "Filter_test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "07b130c5-b6eb-4294-a747-af9d8e480735",
+        "dataVariationFilePath": ".variations\\add_movie_Sheet1.json",
+        "fileName": "Add_movie_test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "f282a508-749c-4b93-a6ed-1ddd9decf2ef",
+        "dataVariationFilePath": ".variations\\view_moviedetail_Sheet1.json",
+        "fileName": "View_moviedetail_test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "78ddce89-144b-4683-9efb-61fb8acd0c5f",
+        "dataVariationFilePath": ".variations\\delete_title_Sheet1.json",
+        "fileName": "Delete_movie_test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2a92f032-4eb0-4f14-889a-277a2c594ef0",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "69f74684-061b-4c2f-9d4b-140bb47f506b",
+        "fileName": "Edit_movie_test.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7b6aca55-3797-4b50-99dc-c11266445ac3",
+        "fileName": "Add_cast_test.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
